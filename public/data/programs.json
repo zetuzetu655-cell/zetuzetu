@@ -1,0 +1,35 @@
+[
+  {
+    "id": "program-1",
+    "track": "Creative Arts",
+    "title": "Street to Studio & Stage",
+    "summary": "Redirecting street energy into music production, performance, digital media, and graffiti art skills. From the corner to the chorus — we turn raw hustle into refined craft.",
+    "schedule": "Mondays & Wednesdays, 4:00 PM",
+    "targetAudience": "Ages 14 - 24",
+    "image": "https://images.pexels.com/photos/13521352/pexels-photo-13521352.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "actionLabel": "Enroll / Join Track",
+    "actionType": "enroll"
+  },
+  {
+    "id": "program-2",
+    "track": "Advocacy & Peace",
+    "title": "The Safehouse & Peer Network",
+    "summary": "A zero-judgment space focusing on substance abuse prevention, crime rehabilitation, and peer group therapy circles. Walk in carrying weight, walk out carrying purpose.",
+    "schedule": "Daily Drop-in, 9:00 AM - 5:00 PM",
+    "targetAudience": "Ages 16 - 30",
+    "image": "https://images.pexels.com/photos/7176305/pexels-photo-7176305.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "actionLabel": "Speak to a Mentor",
+    "actionType": "mentor"
+  },
+  {
+    "id": "program-3",
+    "track": "Leadership",
+    "title": "New Breed Leadership Academy",
+    "summary": "Intensive seminars tackling identity development, basic life skills, financial literacy, and civic responsibility to raise Eldoret leaders. Building the minds that will build the community.",
+    "schedule": "Saturdays, 10:00 AM",
+    "targetAudience": "Ages 18 - 28",
+    "image": "https://images.pexels.com/photos/12896306/pexels-photo-12896306.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "actionLabel": "Apply for Academy",
+    "actionType": "apply"
+  }
+]

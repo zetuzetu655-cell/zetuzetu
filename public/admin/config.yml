@@ -1,0 +1,86 @@
+backend:
+  name: git-gateway
+  branch: main
+local_backend: true
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - file: "public/data/settings.json"
+        name: "site_settings"
+        label: "Global Settings"
+        fields:
+          - { label: "Site Name", name: "siteName", widget: "string" }
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "Location", name: "location", widget: "string" }
+          - { label: "Logo Image URL", name: "logoUrl", widget: "image", required: false }
+          - { label: "Hero Image URL", name: "heroImageUrl", widget: "image", required: false }
+          - { label: "Contact Email", name: "contactEmail", widget: "string" }
+          - { label: "Contact Phone", name: "contactPhone", widget: "string" }
+          - label: "Social Media Links"
+            name: "social"
+            widget: "object"
+            fields:
+              - { label: "Instagram URL", name: "instagram", widget: "string" }
+              - { label: "TikTok URL", name: "tiktok", widget: "string" }
+              - { label: "YouTube URL", name: "youtube", widget: "string" }
+              - { label: "WhatsApp Number/Link", name: "whatsapp", widget: "string" }
+              - { label: "Facebook URL", name: "facebook", widget: "string" }
+              - { label: "Twitter (X) URL", name: "twitter", widget: "string" }
+          - { label: "PesaPal Merchant Live URL", name: "pesapalMerchantUrl", widget: "string", required: false }
+
+  - name: "posts"
+    label: "Homepage Social Feed"
+    folder: "public/data/posts_import"
+    create: true
+    fields:
+          - { label: "Post ID", name: "id", widget: "string" }
+          - { label: "Author", name: "author", widget: "string" }
+          - { label: "Avatar URL", name: "avatar", widget: "image", required: false }
+          - { label: "Location Tag", name: "location", widget: "string" }
+          - { label: "Timestamp", name: "timestamp", widget: "string" }
+          - { label: "Status Text", name: "text", widget: "text" }
+          - { label: "Photo URL", name: "image", widget: "image" }
+          - { label: "Likes", name: "likes", widget: "number", default: 0 }
+          - { label: "Comments", name: "comments", widget: "number", default: 0 }
+
+  - name: "programs"
+    label: "Active Programs"
+    folder: "public/data/programs_import"
+    create: true
+    fields:
+          - { label: "Program ID", name: "id", widget: "string" }
+          - { label: "Track Label", name: "track", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Summary", name: "summary", widget: "text" }
+          - { label: "Schedule", name: "schedule", widget: "string" }
+          - { label: "Target Audience", name: "targetAudience", widget: "string" }
+          - { label: "Image URL", name: "image", widget: "image" }
+          - { label: "Action Button Label", name: "actionLabel", widget: "string" }
+          - { label: "Action Type", name: "actionType", widget: "select", options: ["enroll", "mentor", "apply"] }
+
+  - name: "milestones"
+    label: "Initiative Milestones"
+    folder: "public/data/milestones_import"
+    create: true
+    fields:
+          - { label: "Milestone ID", name: "id", widget: "string" }
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Tag", name: "tag", widget: "string" }
+          - { label: "Summary", name: "summary", widget: "text" }
+          - { label: "Photo URL", name: "image", widget: "image" }
+
+  - name: "merchandise"
+    label: "Store Merchandise Catalogue"
+    folder: "public/data/merchandise_import"
+    create: true
+    fields:
+          - { label: "Product ID", name: "id", widget: "string" }
+          - { label: "Product Title", name: "title", widget: "string" }
+          - { label: "Product Category", name: "category", widget: "select", options: ["Apparel", "Accessories", "Music", "Other"] }
+          - { label: "Price (KES)", name: "price", widget: "number", value_type: "int", min: 0 }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Item Photo", name: "image", widget: "image" }

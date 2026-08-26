@@ -1,0 +1,68 @@
+[
+  {
+    "id": "post-1",
+    "author": "Zetu Zetu Form",
+    "avatar": "",
+    "location": "Langas, Eldoret",
+    "timestamp": "2 hours ago",
+    "text": "Big moves in Langas today! Our Street to Studio crew laid down three new conscious tracks. The energy was unreal — raw talent meeting real purpose. This is what the New Breed looks like.",
+    "image": "https://images.pexels.com/photos/7086732/pexels-photo-7086732.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "likes": 248,
+    "comments": 36
+  },
+  {
+    "id": "post-2",
+    "author": "Zetu Zetu Form",
+    "avatar": "",
+    "location": "Langas, Eldoret",
+    "timestamp": "1 day ago",
+    "text": "Saturday cleanup drive was massive. Over 40 young people showed up to clear drainage lines and reclaim the dump zone near Stage 12. Sanitation is self-respect. Form ni zetu!",
+    "image": "https://images.pexels.com/photos/6647013/pexels-photo-6647013.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "likes": 412,
+    "comments": 58
+  },
+  {
+    "id": "post-3",
+    "author": "Zetu Zetu Form",
+    "avatar": "",
+    "location": "Langas, Eldoret",
+    "timestamp": "2 days ago",
+    "text": "Neighborhood tournament finals brought together three estates that rarely see eye to eye. Football bridged the divide. Peace won the real trophy. #UnityOverConflict",
+    "image": "https://images.pexels.com/photos/38455382/pexels-photo-38455382.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "likes": 530,
+    "comments": 72
+  },
+  {
+    "id": "post-4",
+    "author": "Zetu Zetu Form",
+    "avatar": "",
+    "location": "Langas, Eldoret",
+    "timestamp": "4 days ago",
+    "text": "Peer counseling circle hit a milestone — 150 sessions completed. Real conversations about substance abuse, pressure, and finding purpose. No judgment, just support. The Safehouse doors stay open.",
+    "image": "https://images.pexels.com/photos/9064327/pexels-photo-9064327.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "likes": 389,
+    "comments": 45
+  },
+  {
+    "id": "post-5",
+    "author": "Zetu Zetu Form",
+    "avatar": "",
+    "location": "Langas, Eldoret",
+    "timestamp": "6 days ago",
+    "text": "Leadership Academy Saturday seminar tackled financial literacy basics. 30 young leaders learned budgeting, saving, and how to think like owners of their future. Knowledge is the real power.",
+    "image": "https://images.pexels.com/photos/12896306/pexels-photo-12896306.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "likes": 276,
+    "comments": 31
+  },
+  {
+    "id": "post-6",
+    "author": "Zetu Zetu Form",
+    "avatar": "",
+    "location": "Langas, Eldoret",
+    "timestamp": "1 week ago",
+    "text": "Graffiti art workshop turned the alley behind our center into a canvas. Young artists reclaimed the space with color and message. The walls now speak hope instead of neglect.",
+    "image": "https://images.pexels.com/photos/1707640/pexels-photo-1707640.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "likes": 467,
+    "comments": 64
+  }
+]
