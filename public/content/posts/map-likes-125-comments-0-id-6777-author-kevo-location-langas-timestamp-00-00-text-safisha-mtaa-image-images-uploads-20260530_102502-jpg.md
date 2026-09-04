@@ -1,6 +1,7 @@
 ---
 id: "6777"
 author: kevo
+avatar: /images/uploads/20260530_102445.jpg
 location: langas
 timestamp: "00.00"
 text: safisha mtaa
