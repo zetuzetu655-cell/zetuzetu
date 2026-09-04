@@ -1,16 +1,8 @@
-import { useEffect, useState } from 'react';
 import { Sparkles } from 'lucide-react';
-import type { Milestone } from '@/types';
+import { fetchMilestones } from '@/lib/content';
 
 export function ImpactPage() {
-  const [milestones, setMilestones] = useState<Milestone[]>([]);
-
-  useEffect(() => {
-    fetch('/data/milestones.json')
-      .then((res) => res.json())
-      .then((data: Milestone[]) => setMilestones(data))
-      .catch(() => setMilestones([]));
-  }, []);
+  const milestones = fetchMilestones();
 
   return (
     <div className="pt-24 md:pt-32 pb-10">

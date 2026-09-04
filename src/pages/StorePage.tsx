@@ -1,19 +1,13 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Sparkles, ShoppingCart } from 'lucide-react';
 import type { Merchandise } from '@/types';
 import { GraffitiLogo } from '@/components/GraffitiLogo';
 import { CheckoutModal } from '@/components/CheckoutModal';
+import { fetchMerchandise } from '@/lib/content';
 
 export function StorePage() {
-  const [products, setProducts] = useState<Merchandise[]>([]);
+  const products = fetchMerchandise();
   const [checkoutProduct, setCheckoutProduct] = useState<Merchandise | null>(null);
-
-  useEffect(() => {
-    fetch('/data/merchandise.json')
-      .then((res) => res.json())
-      .then((data: Merchandise[]) => setProducts(data))
-      .catch(() => setProducts([]));
-  }, []);
 
   return (
     <div className="pt-24 md:pt-32 pb-10">

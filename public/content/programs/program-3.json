@@ -1,0 +1,11 @@
+{
+  "id": "program-3",
+  "track": "Leadership",
+  "title": "New Breed Leadership Academy",
+  "summary": "Intensive seminars tackling identity development, basic life skills, financial literacy, and civic responsibility to raise Eldoret leaders. Building the minds that will build the community.",
+  "schedule": "Saturdays, 10:00 AM",
+  "targetAudience": "Ages 18 - 28",
+  "image": "https://images.pexels.com/photos/12896306/pexels-photo-12896306.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+  "actionLabel": "Apply for Academy",
+  "actionType": "apply"
+}

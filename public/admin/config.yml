@@ -34,8 +34,9 @@ collections:
 
   - name: "posts"
     label: "Homepage Social Feed"
-    folder: "public/data/posts_import"
+    folder: "public/content/posts"
     create: true
+    slug: "{{slug}}"
     fields:
           - { label: "Post ID", name: "id", widget: "string" }
           - { label: "Author", name: "author", widget: "string" }
@@ -49,8 +50,9 @@ collections:
 
   - name: "programs"
     label: "Active Programs"
-    folder: "public/data/programs_import"
+    folder: "public/content/programs"
     create: true
+    slug: "{{slug}}"
     fields:
           - { label: "Program ID", name: "id", widget: "string" }
           - { label: "Track Label", name: "track", widget: "string" }
@@ -64,8 +66,9 @@ collections:
 
   - name: "milestones"
     label: "Initiative Milestones"
-    folder: "public/data/milestones_import"
+    folder: "public/content/milestones"
     create: true
+    slug: "{{slug}}"
     fields:
           - { label: "Milestone ID", name: "id", widget: "string" }
           - { label: "Headline", name: "headline", widget: "string" }
@@ -75,8 +78,9 @@ collections:
 
   - name: "merchandise"
     label: "Store Merchandise Catalogue"
-    folder: "public/data/merchandise_import"
+    folder: "public/content/merchandise"
     create: true
+    slug: "{{slug}}"
     fields:
           - { label: "Product ID", name: "id", widget: "string" }
           - { label: "Product Title", name: "title", widget: "string" }

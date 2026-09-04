@@ -1,19 +1,11 @@
-import { useEffect, useState } from 'react';
 import { MapPin, Clock, ArrowRight, Target, Sparkles } from 'lucide-react';
-import type { Program } from '@/types';
 import { useRouter } from '@/context/RouterContext';
 import { GraffitiLogo } from '@/components/GraffitiLogo';
+import { fetchPrograms } from '@/lib/content';
 
 export function ProgramsPage() {
-  const [programs, setPrograms] = useState<Program[]>([]);
+  const programs = fetchPrograms();
   const { navigate } = useRouter();
-
-  useEffect(() => {
-    fetch('/data/programs.json')
-      .then((res) => res.json())
-      .then((data: Program[]) => setPrograms(data))
-      .catch(() => setPrograms([]));
-  }, []);
 
   return (
     <div className="pt-24 md:pt-32 pb-10">
