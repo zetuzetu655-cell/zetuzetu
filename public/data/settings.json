@@ -1,18 +1,18 @@
 {
-  "siteName": "Zetu Zetu Form",
-  "tagline": "The New Breed Initiative",
-  "location": "Langas, Eldoret, Kenya",
-  "logoUrl": "",
-  "heroImageUrl": "",
+  "logoUrl": "/images/uploads/e9f97a45-62a1-4f3b-880f-9a97ebab8799.jpg",
   "social": {
     "instagram": "https://instagram.com/zetuzetuform",
     "tiktok": "https://tiktok.com/@zetuzetuform",
     "youtube": "https://youtube.com/@zetuzetuform",
-    "whatsapp": "https://wa.me/254700000000",
+    "whatsapp": "https://wa.me/254726088384",
     "facebook": "https://facebook.com/zetuzetuform",
     "twitter": "https://twitter.com/zetuzetuform"
   },
+  "heroImageUrl": "/images/uploads/20260530_124526.jpg",
+  "contactPhone": "+254 726088384",
+  "tagline": "The New Breed Initiative",
   "pesapalMerchantUrl": "",
-  "contactEmail": "hello@zetuzetuform.org",
-  "contactPhone": "+254 700 000 000"
+  "siteName": "Zetu Zetu Form",
+  "location": "Langas, Eldoret, Kenya",
+  "contactEmail": "zetuzetuform@gmail.com"
 }
