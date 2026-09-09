@@ -1,0 +1,74 @@
+[
+  {
+    "id": "media-1",
+    "type": "video",
+    "title": "Street to Studio — Behind the Beats",
+    "description": "Inside the recording sessions where Langas youth turn street stories into conscious music.",
+    "thumbnail": "https://images.pexels.com/photos/7086732/pexels-photo-7086732.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "duration": "4:32",
+    "platform": "YouTube"
+  },
+  {
+    "id": "media-2",
+    "type": "photo",
+    "title": "Graffiti Reclamation Project",
+    "description": "The alley behind our center transformed by young artists with spray cans and purpose.",
+    "thumbnail": "https://images.pexels.com/photos/1707640/pexels-photo-1707640.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "duration": null,
+    "platform": "Instagram"
+  },
+  {
+    "id": "media-3",
+    "type": "video",
+    "title": "Tournament Finals — Unity Match",
+    "description": "Three estates, one field, one purpose. The match that brought Langas together.",
+    "thumbnail": "https://images.pexels.com/photos/38455382/pexels-photo-38455382.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "duration": "6:15",
+    "platform": "YouTube"
+  },
+  {
+    "id": "media-4",
+    "type": "photo",
+    "title": "Clean-Up Drive — Stage 12",
+    "description": "40+ youth clearing drainage and reclaiming the dump zone near Stage 12.",
+    "thumbnail": "https://images.pexels.com/photos/6647013/pexels-photo-6647013.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "duration": null,
+    "platform": "Instagram"
+  },
+  {
+    "id": "media-5",
+    "type": "video",
+    "title": "Leadership Academy — Financial Literacy 101",
+    "description": "Saturday seminar breaking down budgeting and saving for young leaders.",
+    "thumbnail": "https://images.pexels.com/photos/12896306/pexels-photo-12896306.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "duration": "8:47",
+    "platform": "YouTube"
+  },
+  {
+    "id": "media-6",
+    "type": "photo",
+    "title": "Safehouse Peer Circle",
+    "description": "A counseling session in progress — real talk, real support, zero judgment.",
+    "thumbnail": "https://images.pexels.com/photos/7176305/pexels-photo-7176305.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "duration": null,
+    "platform": "Instagram"
+  },
+  {
+    "id": "media-7",
+    "type": "video",
+    "title": "Live on Stage — Peace Anthem",
+    "description": "The New Breed performing the conscious track that became Langas's unofficial anthem.",
+    "thumbnail": "https://images.pexels.com/photos/10063279/pexels-photo-10063279.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "duration": "3:58",
+    "platform": "YouTube"
+  },
+  {
+    "id": "media-8",
+    "type": "photo",
+    "title": "Dance Celebration — Cultural Night",
+    "description": "Youth celebration bringing color, rhythm, and joy to the Langas community center.",
+    "thumbnail": "https://images.pexels.com/photos/20270761/pexels-photo-20270761.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "duration": null,
+    "platform": "Instagram"
+  }
+]

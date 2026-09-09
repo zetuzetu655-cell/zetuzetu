@@ -1,0 +1,50 @@
+[
+  {
+    "id": "merch-1",
+    "title": "New Breed Signature Hoodie",
+    "category": "Apparel",
+    "price": 2500,
+    "description": "Premium heavyweight hoodie featuring the ZETUZETUFORM graffiti logo with neon green and blue splatter print. Unisex fit, sizes S to XXL. Support the initiative and wear the movement.",
+    "image": "https://images.pexels.com/photos/1707640/pexels-photo-1707640.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+  },
+  {
+    "id": "merch-2",
+    "title": "Form Ni Zetu Snapback Cap",
+    "category": "Apparel",
+    "price": 1200,
+    "description": "Classic structured snapback with embroidered 'FORM NI ZETU' tagline. One-size adjustable. Black matte crown with neon green under-visor.",
+    "image": "https://images.pexels.com/photos/1366851/pexels-photo-1366851.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+  },
+  {
+    "id": "merch-3",
+    "title": "Street to Studio Vinyl Tee",
+    "category": "Apparel",
+    "price": 1500,
+    "description": "Limited edition concert tee from the Street to Studio track. Features the full crew lineup graphic on the back. 100% cotton, screen-printed in Eldoret.",
+    "image": "https://images.pexels.com/photos/6188/street-graffiti-bricks-wall.jpg?auto=compress&cs=tinysrgb&h=650&w=940"
+  },
+  {
+    "id": "merch-4",
+    "title": "New Breed Sticker Pack (Set of 6)",
+    "category": "Accessories",
+    "price": 300,
+    "description": "Die-cut vinyl sticker set featuring all six pillar icons and the ZETUZETUFORM logo. Weatherproof for laptops, helmets, and street gear.",
+    "image": "https://images.pexels.com/photos/13521352/pexels-photo-13521352.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+  },
+  {
+    "id": "merch-5",
+    "title": "Conscious Music Vol. 1 — Digital Album",
+    "category": "Music",
+    "price": 500,
+    "description": "12-track digital album compilation from the Langas studio sessions. Conscious hip-hop, spoken word, and Afro-fusion from the New Breed crew. Download link sent after purchase.",
+    "image": "https://images.pexels.com/photos/7301210/pexels-photo-7301210.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+  },
+  {
+    "id": "merch-6",
+    "title": "Langas Youth Tote Bag",
+    "category": "Accessories",
+    "price": 800,
+    "description": "Durable canvas tote with screen-printed graffiti logo. Perfect for everyday carry. Every purchase funds one day of safehouse operations.",
+    "image": "https://images.pexels.com/photos/7086732/pexels-photo-7086732.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+  }
+]

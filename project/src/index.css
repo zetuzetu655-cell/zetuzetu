@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-ink-950 text-gray-200 font-body antialiased;
+  }
+  ::selection {
+    @apply bg-lime/30 text-white;
+  }
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-ink-950;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-ink-600 rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-lime/50;
+  }
+}
+
+@layer components {
+  .card-glow {
+    @apply border border-ink-500/60 transition-all duration-300 hover:border-lime/60 hover:shadow-[0_0_24px_-4px_rgba(34,197,94,0.35)] hover:bg-ink-800/60;
+  }
+  .card-glow-sky {
+    @apply border border-ink-500/60 transition-all duration-300 hover:border-sky/60 hover:shadow-[0_0_24px_-4px_rgba(59,130,246,0.35)] hover:bg-ink-800/60;
+  }
+  .btn-lime {
+    @apply bg-lime text-ink-950 font-semibold rounded-full px-6 py-3 transition-all duration-300 hover:bg-lime-glow hover:shadow-[0_0_24px_-4px_rgba(34,197,94,0.6)] hover:scale-[1.03] active:scale-95;
+  }
+  .btn-outline-sky {
+    @apply bg-transparent text-white font-semibold rounded-full px-6 py-3 border-2 border-sky transition-all duration-300 hover:bg-sky/10 hover:shadow-[0_0_24px_-4px_rgba(59,130,246,0.5)] hover:scale-[1.03] active:scale-95;
+  }
+  .btn-outline-lime {
+    @apply bg-transparent text-lime font-semibold rounded-full px-6 py-3 border-2 border-lime transition-all duration-300 hover:bg-lime/10 hover:shadow-[0_0_24px_-4px_rgba(34,197,94,0.5)] hover:scale-[1.03] active:scale-95;
+  }
+  .gradient-text {
+    @apply bg-gradient-to-r from-lime to-sky bg-clip-text text-transparent;
+  }
+  .section-pad {
+    @apply px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto;
+  }
+  .input-field {
+    @apply w-full bg-ink-800 border border-ink-500/60 rounded-xl px-4 py-3 text-white placeholder-gray-500 transition-all duration-300 focus:outline-none focus:border-lime focus:ring-2 focus:ring-lime/20;
+  }
+}
+
+@layer utilities {
+  .text-shadow-glow {
+    text-shadow: 0 0 30px rgba(34, 197, 94, 0.3);
+  }
+  .bg-grid {
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+}
