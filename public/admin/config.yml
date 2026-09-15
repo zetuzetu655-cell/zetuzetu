@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: main
 local_backend: true
-media_folder: "public/images/uploads"
-public_folder: "/images/uploads"
+media_folder: "public/content/uploads"
+public_folder: "/content/uploads"
 
 collections:
   - name: "settings"
@@ -88,3 +88,16 @@ collections:
           - { label: "Price (KES)", name: "price", widget: "number", value_type: "int", min: 0 }
           - { label: "Description", name: "description", widget: "text" }
           - { label: "Item Photo", name: "image", widget: "image" }
+            - name: "media"
+    label: "Media Hub"
+    folder: "public/data/media"
+    create: true
+    slug: "{{slug}}"
+    fields:
+          - { label: "ID", name: "id", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Thumbnail", name: "thumbnail", widget: "image" }
+          - { label: "Type", name: "type", widget: "select", options: ["photo", "video"] }
+          - { label: "Duration (if video)", name: "duration", widget: "string", required: false }
+          - { label: "Platform", name: "platform", widget: "select", options: ["Instagram", "YouTube"] }
