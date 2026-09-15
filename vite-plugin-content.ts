@@ -12,7 +12,7 @@ const COLLECTIONS: CollectionConfig[] = [
   { id: 'posts', dir: 'public/content/posts', sortByTimestamp: true },
   { id: 'programs', dir: 'public/content/programs' },
   { id: 'milestones', dir: 'public/content/milestones' },
-  { id: 'merchandise', dir: 'public/content/merchandise' },
+  { id: 'merchandise', dir: 'public/content/merchandise' }, { id: 'media', dir: 'public/data/media' },
 ];
 
 const TIME_UNITS: Record<string, number> = {
@@ -99,10 +99,18 @@ export function contentPlugin(): Plugin {
         }
       }
 
+           // Ensure media directory exists
+      const mediaDir = path.resolve('public/data/media');
+      if (!fs.existsSync(mediaDir)) {
+        fs.mkdirSync(mediaDir, { recursive: true });
+      }
+      devServer.watcher.add(mediaDir);
+
       devServer.watcher.on('change', reloadCollection);
       devServer.watcher.on('add', reloadCollection);
       devServer.watcher.on('unlink', reloadCollection);
     },
+
 
     resolveId(id) {
       if (id.startsWith(VIRTUAL_PREFIX)) {
